@@ -1,0 +1,47 @@
+{
+  "name": "rhs-db-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel rhs-db-connector -d build --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.cloudzmall.com/applane-npm/rhs-db-connector.git"
+  },
+  "author": "Applane",
+  "license": "ISC",
+  "bundleDependencies": false,
+  "dependencies": {
+    "rhs-common": "file:../rhs-common"
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "21.2.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-power-assert": "^2.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "4.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "6.26.0",
+    "body-parser": "^1.18.3",
+    "lodash": "^4.17.10",
+    "mongodb": "^2.2.5"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ],
+    "plugins": [
+      "transform-decorators-legacy"
+    ]
+  }
+}
